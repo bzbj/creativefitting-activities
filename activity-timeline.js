@@ -7,7 +7,7 @@
   });
   const rail = document.getElementById('activityRail');
   const dialog = document.getElementById('activityLightbox');
-  let filter = 'all', descending = false, activeAlbum = null, photoIndex = 0;
+  let filter = 'all', descending = true, activeAlbum = null, photoIndex = 0;
   const escape = s => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const art = item => {
     const fields = {wan:['发布摘要','Wan3.0','从模型能力，到生产实践','CREATIVEFITTING × ALIBABA CLOUD'],hundred:['活动预告 · 开营礼','100h','城市情书，创见未来','SHANGHAI · 152 组报名'],stripe:['活动预告 · 邀约已收到','stripe','Tour Shanghai','22—23 SEPTEMBER 2026']}[item.art];
