@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CreativeFitting · 近期活动时间轴</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./activity-timeline.css" />
+  </head>
+  <body data-view="activity">
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">CreativeFitting</p>
+        <h1>活动纪事</h1>
+      </div>
+      <div class="meta">
+        <span>Last updated</span>
+        <strong>2026-09-16</strong>
+      </div>
+    </header>
+
+    <main class="layout">
+      <section class="content">
+        <section class="panel is-visible" id="activity" aria-labelledby="activityTitle">
+          <div class="activity-shell">
+            <header class="activity-hero">
+              <div><p class="activity-kicker"><span></span> CREATIVEFITTING / FIELD NOTES</p><h2 id="activityTitle">近期活动<span>每一次相遇，都留在这里。</span></h2><p class="activity-intro">从媒体对话到活动现场，沿着时间，回看我们的足迹。</p></div>
+              <div class="activity-season"><span>2026</span><strong>06—09</strong><small>活动与媒体纪事 · 内部浏览</small></div>
+            </header>
+            <div class="activity-toolbar"><div class="activity-filters" aria-label="活动筛选"><button type="button" data-filter="all" aria-pressed="true">全部 <span>15</span></button><button type="button" data-filter="past" aria-pressed="false">已发生 <span>12</span></button><button type="button" data-filter="upcoming" aria-pressed="false">即将到来 <span>03</span></button></div><button type="button" id="activitySort" aria-label="切换时间排序">日期升序 ↓</button></div>
+            <p class="activity-result" id="activityResult" aria-live="polite"></p>
+            <div class="activity-rail" id="activityRail"></div>
+            <footer class="activity-footer"><span>CREATIVEFITTING <b>© 2026</b></span><p>以活动日期排序，媒体内容以发布日排序。状态截至 2026.09.16，后续安排以确认结果为准。</p></footer>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <dialog id="activityLightbox" aria-labelledby="lightboxTitle"><div class="lightbox-top"><h2 id="lightboxTitle"></h2><button type="button" id="lightboxClose" aria-label="关闭相册">关闭 ×</button></div><div class="lightbox-stage"><button type="button" id="lightboxPrev" aria-label="上一张">←</button><img id="lightboxImage" alt="" /><button type="button" id="lightboxNext" aria-label="下一张">→</button></div><div class="lightbox-bottom"><p id="lightboxCaption" aria-live="polite"></p><a id="lightboxOriginal" target="_blank" rel="noopener">查看原图 ↗</a></div></dialog>
+    <script src="./activity-data.js"></script>
+    <script src="./activity-timeline.js"></script>
+  </body>
+</html>
