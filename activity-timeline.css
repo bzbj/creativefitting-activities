@@ -122,3 +122,69 @@ body[data-view="activity"] .content { padding:0; }
 .activity-cover.presentation-ranking .activity-image-window { height:auto; aspect-ratio:.68; overflow:hidden; }
 .activity-cover.presentation-ranking img.fit-contain { height:auto; padding:0; object-fit:initial; }
 .activity-cover.presentation-ranking .activity-category,.activity-cover.presentation-ranking .activity-image-count { color:#e4d09c; }
+
+/* Compact monthly timeline: three cards per row, with original images in the album. */
+body[data-view="activity"] .topbar { padding-top:12px; padding-bottom:12px; }
+.activity-hero { padding:20px 0; gap:20px; }
+.activity-kicker { margin-bottom:8px; }
+#activityTitle { font-size:34px; letter-spacing:-1px; }
+#activityTitle span { display:inline; margin-left:16px; font-size:16px; letter-spacing:0; }
+.activity-intro { margin-top:8px; font-size:11px; }
+.activity-season strong { font-size:38px; letter-spacing:-2px; }
+.activity-season small { margin-top:3px; }
+.activity-toolbar { padding:8px 0; }
+.activity-toolbar button { padding:7px 12px; }
+.activity-result { margin-top:10px; }
+.activity-rail { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:18px; padding-left:24px; }
+.activity-rail::before { left:0; top:24px; }
+.activity-month { grid-column:1/-1; display:flex; align-items:baseline; gap:12px; width:auto; margin:8px 0 -4px -24px; padding:10px 0; text-align:left; }
+.activity-month strong { font-size:26px; background:#f5f3ed; }
+.activity-month span { margin:0; }
+.activity-entry,.activity-entry.is-right,.activity-entry+.activity-entry { width:100%; min-width:0; margin:0!important; }
+.activity-entry::before,.activity-entry::after { display:none; }
+.activity-date,.is-right .activity-date { margin-bottom:7px; gap:8px; }
+.activity-date strong { font-size:20px; }
+.activity-date small { font-size:9px; }
+.activity-card { border-radius:10px; }
+.activity-cover,.activity-cover.presentation-full,.activity-cover.presentation-top,.activity-cover.presentation-ranking { height:188px; padding-bottom:26px; background:#edeae2; }
+.activity-cover .activity-image-window,.activity-cover.presentation-full .activity-image-window,.activity-cover.presentation-top .activity-image-window,.activity-cover.presentation-ranking .activity-image-window { height:162px; aspect-ratio:auto; overflow:hidden; }
+.activity-cover img,.activity-cover.presentation-full img.fit-contain { height:100%; object-fit:contain; padding:0; }
+.activity-cover.presentation-top img.fit-contain,.activity-cover.presentation-ranking img.fit-contain { height:auto; object-fit:initial; padding:0; }
+.activity-cover .activity-category,.activity-cover[class*="presentation-"] .activity-category { top:auto; bottom:7px; left:10px; padding:0; border:0; background:transparent; color:#40564e; font-size:9px; }
+.activity-cover .activity-image-count,.activity-cover[class*="presentation-"] .activity-image-count { bottom:7px; right:10px; padding:0; background:transparent; color:#40564e; font-size:9px; }
+.activity-body { padding:12px 14px; }
+.activity-cardline { margin-bottom:6px; gap:6px; }
+.activity-body h3 { font-size:16px; line-height:1.45; margin-bottom:6px; letter-spacing:0; }
+.activity-body h3 br { display:none; }
+.activity-body p { font-size:11px; line-height:1.65; }
+.activity-details summary { cursor:pointer; color:#71806f; font-size:11px; }
+.activity-details p { margin-top:6px; }
+.activity-cardfoot { margin-top:9px; padding-top:8px; gap:8px; }
+.activity-now { grid-column:1/-1; margin:4px 0; padding:7px 14px; font-size:10px; }
+.activity-footer { padding:20px 0; }
+@media (min-width:1600px) { .activity-shell { max-width:1320px; } }
+@media (max-width:1000px) { .activity-rail { grid-template-columns:repeat(2,minmax(0,1fr)); } }
+@media (max-width:650px) {
+ .activity-shell { padding:0 16px; }
+ .activity-hero { padding:16px 0; align-items:center; }
+ #activityTitle { font-size:28px; } #activityTitle span { display:block; margin:6px 0 0; font-size:13px; }
+ .activity-kicker { font-size:8px; margin-bottom:7px; }
+ .activity-season { min-width:65px; } .activity-season strong { font-size:27px; }
+ .activity-toolbar button { font-size:10px; padding:7px 9px; }
+ .activity-rail { grid-template-columns:minmax(0,1fr); gap:12px; padding-left:14px; }
+ .activity-month { margin:5px 0 -3px -14px; padding:7px 0; width:auto; }
+ .activity-month strong { font-size:23px; }
+ .activity-date,.is-right .activity-date { margin-bottom:5px; }
+ .activity-date strong { font-size:18px; }
+ .activity-card { display:grid; grid-template-columns:112px minmax(0,1fr); align-items:start; }
+ .activity-cover,.activity-cover.presentation-full,.activity-cover.presentation-top,.activity-cover.presentation-ranking { height:138px; padding-bottom:24px; }
+ .activity-cover .activity-image-window,.activity-cover.presentation-full .activity-image-window,.activity-cover.presentation-top .activity-image-window,.activity-cover.presentation-ranking .activity-image-window { height:114px; }
+ .activity-cover .activity-category { display:none; }
+ .activity-cover .activity-image-count,.activity-cover[class*="presentation-"] .activity-image-count { font-size:8px; right:8px; }
+ .activity-body { padding:9px 10px; min-width:0; }
+ .activity-body h3 { font-size:14px; }
+ .activity-number { display:none; }
+ .activity-cardfoot { flex-wrap:wrap; margin-top:7px; padding-top:6px; gap:3px 8px; }
+ .activity-cardfoot small { font-size:9px; }
+ .activity-now { margin:2px 0; }
+}
