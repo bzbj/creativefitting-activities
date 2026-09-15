@@ -102,8 +102,8 @@ window.PR_ACTIVITIES = [
     "source": "https://mp.weixin.qq.com/s/T7VuBbAFvBK9332wMz_gSw",
     "photos": [
       {
-        "src": "./assets/jiuhe-01.png",
-        "caption": "九合创投原文顶部 · 标题、媒体与活动日期",
+        "src": "./assets/jiuhe-group-77d848f5f8.png",
+        "caption": "九合 AI Debug Night · 活动现场合影",
         "fit": "contain",
         "presentation": "full"
       }
