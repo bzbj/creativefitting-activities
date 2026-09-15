@@ -14,8 +14,8 @@ window.PR_ACTIVITIES = [
     "source": "https://mp.weixin.qq.com/s/y5Mq3tUDIaoo1D3ZS6xPVg",
     "photos": [
       {
-        "src": "./assets/machine-heart-01.png",
-        "caption": "机器之心原文顶部 · 标题、媒体与开篇段落",
+        "src": "./assets/machine-heart-cover-e3e65af79d.png",
+        "caption": "机器之心 · 井英科技报道头图",
         "fit": "contain",
         "presentation": "full"
       }
