@@ -131,3 +131,24 @@ body[data-view="activity"] .content { padding:0; }
  .activity-rail.is-positioned > .activity-month,
  .activity-rail.is-positioned > .activity-now { left:50%; transform:translateX(-50%); }
 }
+
+/* A single concise heading replaces the masthead and oversized hero. */
+.activity-heading { display:flex; align-items:center; gap:24px; padding:24px 0 20px; }
+.activity-logo { width:210px; height:auto; display:block; filter:brightness(0); flex-shrink:0; }
+.activity-heading #activityTitle { margin:0; font-family:"PingFang SC","Microsoft YaHei",sans-serif; font-size:24px; font-weight:600; letter-spacing:0; line-height:1.4; }
+.activity-contact { margin-left:auto; display:flex; flex-direction:column; gap:5px; text-align:right; white-space:nowrap; }
+.activity-contact small { color:#7d867b; font-size:11px; }
+.activity-contact a { color:#526b57; font-size:12px; text-decoration:none; }
+.activity-contact a:hover { text-decoration:underline; }
+@media(max-width:850px) {
+ .activity-heading { flex-wrap:wrap; gap:12px 20px; }
+ .activity-logo { width:180px; }
+ .activity-heading #activityTitle { font-size:21px; }
+ .activity-contact { width:100%; flex-direction:row; justify-content:space-between; text-align:left; }
+}
+@media(max-width:650px) {
+ .activity-heading { padding:20px 0 16px; gap:10px; }
+ .activity-logo { width:170px; }
+ .activity-heading #activityTitle { width:100%; font-size:22px; }
+ .activity-contact { gap:8px; }
+}
