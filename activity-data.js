@@ -268,6 +268,34 @@ window.PR_ACTIVITIES = [
     ]
   },
   {
+    "id": "paypal-conference",
+    "date": "2026-09-10",
+    "dateLabel": "09.10",
+    "period": "PayPal 大中华区跨境电商大会",
+    "kind": "行业圆桌",
+    "status": "已完成",
+    "phase": "past",
+    "title": "朱江 · PayPal 大会\n智能体商业应用探讨",
+    "summary": "朱江参与智能体商业应用圆桌；PayPal 官方综述确认活动与议题，现场照片的嘉宾屏幕标出朱江及井英科技。",
+    "place": "PayPal 大中华区跨境电商大会",
+    "verified": "2026-09-25",
+    "source": "https://mp.weixin.qq.com/s/3WAAcmYFPJrhLZ7k5kg0Dw",
+    "photos": [
+      {
+        "src": "./assets/paypal-d9e9df0ded3b.jpg",
+        "caption": "PayPal 智能体商业应用圆桌 · 屏幕标示朱江及井英科技",
+        "fit": "contain",
+        "presentation": "full"
+      },
+      {
+        "src": "./assets/paypal-f3f3765d68ce.jpg",
+        "caption": "PayPal 大会 · 现场交流",
+        "fit": "contain",
+        "presentation": "full"
+      }
+    ]
+  },
+  {
     "id": "aimaker",
     "date": "2026-09-12",
     "dateLabel": "09.12",
@@ -349,11 +377,47 @@ window.PR_ACTIVITIES = [
     "title": "上海 100 小时\nAI 微短剧创作大赛",
     "summary": "9月20日开营报道记载15组入围、井英科技协办；9月24日晚赛事颁奖收官，《谢谢侬》获最具出海潜力奖。两篇报道与现场图片已归档。",
     "place": "上海 · 国际传媒港 CMG 融媒影城",
-    "verified": "2026-09-24",
-    "source": "https://www.yicai.com/news/103329038.html",
+    "verified": "2026-09-25",
+    "source": "https://m.ajmide.com/m/branddetail?id=63505712",
     "photos": [
       {
-        "src": "./assets/hundred-01.png",
+        "src": "./assets/hundred-1ba4e9e33a28.jpg",
+        "caption": "9月24日颁奖现场 · 《谢谢侬》获奖团队合影",
+        "fit": "contain",
+        "presentation": "full"
+      },
+      {
+        "src": "./assets/hundred-d5e36ec517e9.jpg",
+        "caption": "9月24日颁奖现场 · 最具出海潜力奖环节",
+        "fit": "contain",
+        "presentation": "full"
+      },
+      {
+        "src": "./assets/hundred-d96a052ed0b5.jpg",
+        "caption": "9月24日颁奖现场 · 台上交流",
+        "fit": "contain",
+        "presentation": "full"
+      },
+      {
+        "src": "./assets/hundred-fe0d545c008b.jpg",
+        "caption": "9月24日颁奖现场 · 奖项交接",
+        "fit": "contain",
+        "presentation": "full"
+      },
+      {
+        "src": "./assets/hundred-19772136c8b3.jpg",
+        "caption": "9月24日颁奖现场 · 获奖团队合影全景",
+        "fit": "contain",
+        "presentation": "full"
+      },
+      {
+        "src": "./assets/hundred-5a2cd2e5e4bb.png",
+        "caption": "9月20日开营礼 · 赛事启动合影（来源：东西文娱）",
+        "fit": "contain",
+        "presentation": "full"
+      },
+      {
+        "src": "./assets/hundred-07.png",
         "caption": "城市情书，创见未来 · 上海100小时AI微短剧创作大赛",
         "fit": "contain",
         "presentation": "full"
