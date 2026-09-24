@@ -125,11 +125,16 @@ body[data-view="activity"] .content { padding:0; }
 
 /* Browse an event's photos in its timeline card; the image still opens the album. */
 .activity-media { position:relative; }
-.activity-preview-arrow { position:absolute; z-index:2; top:calc((100% - 36px)/2); transform:translateY(-50%); display:grid; place-items:center; width:38px; height:38px; border:1px solid #ffffffa8; border-radius:50%; background:#172b24d9; color:#fff; font:22px/1 Arial,sans-serif; cursor:pointer; transition:background .2s,transform .2s; }
-.activity-preview-arrow:hover { background:#172b24; transform:translateY(-50%) scale(1.07); }
+.activity-preview-arrow { position:absolute; z-index:2; top:calc((100% - 36px)/2); transform:translateY(-50%); display:grid; place-items:center; width:38px; height:38px; border:1px solid #ffffffbd; border-radius:50%; background:#ffffff73; color:#24312c; box-shadow:0 2px 14px #0000001f; backdrop-filter:blur(12px) saturate(140%); -webkit-backdrop-filter:blur(12px) saturate(140%); font:22px/1 Arial,sans-serif; cursor:pointer; transition:opacity .2s,background .2s,transform .2s; }
+.activity-preview-arrow:hover { background:#ffffffb8; transform:translateY(-50%) scale(1.07); }
 .activity-preview-arrow.is-prev { left:12px; }
 .activity-preview-arrow.is-next { right:12px; }
+@media(hover:hover) and (pointer:fine) {
+ .activity-preview-arrow { opacity:0; pointer-events:none; }
+ .activity-media:hover .activity-preview-arrow,.activity-media:focus-within .activity-preview-arrow { opacity:1; pointer-events:auto; }
+}
 @media(max-width:650px) { .activity-preview-arrow { width:34px; height:34px; font-size:19px; } .activity-preview-arrow.is-prev { left:8px; } .activity-preview-arrow.is-next { right:8px; } }
+@media(prefers-reduced-motion:reduce){ .activity-preview-arrow { transition:none; } }
 
 /* Stagger cards by measured height, keeping each column clear. */
 @media (min-width:651px) {
