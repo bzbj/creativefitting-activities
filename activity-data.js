@@ -381,14 +381,14 @@ window.PR_ACTIVITIES = [
     "source": "https://m.ajmide.com/m/branddetail?id=63505712",
     "photos": [
       {
-        "src": "./assets/hundred-1ba4e9e33a28.jpg",
-        "caption": "9月24日颁奖现场 · 《谢谢侬》获奖团队合影",
+        "src": "./assets/hundred-d5e36ec517e9.jpg",
+        "caption": "9月24日颁奖现场 · 最具出海潜力奖环节",
         "fit": "contain",
         "presentation": "full"
       },
       {
-        "src": "./assets/hundred-d5e36ec517e9.jpg",
-        "caption": "9月24日颁奖现场 · 最具出海潜力奖环节",
+        "src": "./assets/hundred-1ba4e9e33a28.jpg",
+        "caption": "9月24日颁奖现场 · 《谢谢侬》获奖团队合影",
         "fit": "contain",
         "presentation": "full"
       },
