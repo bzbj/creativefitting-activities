@@ -362,21 +362,39 @@ window.PR_ACTIVITIES = [
   },
   {
     "id": "stripe",
-    "date": "2026-09-22",
-    "dateLabel": "09.22—23",
-    "period": "高管晚宴 · Stripe Tour",
+    "date": "2026-09-23",
+    "dateLabel": "09.23",
+    "period": "Stripe Tour 上海 · 圆桌分享",
     "kind": "伙伴交流",
-    "status": "邀约已收到",
-    "phase": "upcoming",
-    "title": "Stripe Tour Shanghai\n高管晚宴与伙伴交流",
-    "summary": "已收到高管晚宴邀约，并拟安排 Sarita 1:1；参会登记、RSVP 与会谈时间待确认。",
+    "status": "圆桌分享已完成",
+    "phase": "past",
+    "title": "Stripe Tour Shanghai\n吴高明圆桌分享",
+    "summary": "CreativeFitting 联合创始人吴高明作为合作伙伴参与圆桌分享；现场屏幕展示 CreativeFitting 与多家 AI 企业标识，四张成果原图已归档。",
     "place": "上海",
-    "verified": "2026-09-04",
+    "verified": "2026-09-24",
     "source": "https://stripe.events/tourshanghai",
     "photos": [
       {
-        "src": "./assets/stripe-01.png",
-        "caption": "Stripe Tour Shanghai · 活动截图",
+        "src": "./assets/stripe-855f944d1560.jpg",
+        "caption": "CreativeFitting 与多家企业标识同屏",
+        "fit": "contain",
+        "presentation": "full"
+      },
+      {
+        "src": "./assets/stripe-a1c4d0d1f062.jpg",
+        "caption": "圆桌现场侧向全景",
+        "fit": "contain",
+        "presentation": "full"
+      },
+      {
+        "src": "./assets/stripe-84290dfe4770.jpg",
+        "caption": "圆桌现场正面全景",
+        "fit": "contain",
+        "presentation": "full"
+      },
+      {
+        "src": "./assets/stripe-989316387fb3.png",
+        "caption": "圆桌发言特写",
         "fit": "contain",
         "presentation": "full"
       }
