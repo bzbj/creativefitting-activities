@@ -340,16 +340,16 @@ window.PR_ACTIVITIES = [
   },
   {
     "id": "hundred",
-    "date": "2026-09-20",
-    "dateLabel": "09.20",
-    "period": "下一节点 · 开营礼",
+    "date": "2026-09-24",
+    "dateLabel": "09.24",
+    "period": "颁奖收官 · 媒体报道",
     "kind": "赛事协办",
-    "status": "初审进行中",
-    "phase": "upcoming",
+    "status": "颁奖收官",
+    "phase": "past",
     "title": "上海 100 小时\nAI 微短剧创作大赛",
-    "summary": "累计 152 组报名，郭梦评委推荐已完成。9/18 完成评选为计划节点，下一步是 9/20 开营礼。",
-    "place": "上海 · 商汤 Seko 产业基地（建议方案）",
-    "verified": "2026-09-15",
+    "summary": "9月24日晚赛事颁奖收官。话匣子报道列井英科技为协办单位，《谢谢侬》获最具出海潜力奖；现场与报道图片已归档。",
+    "place": "上海 · 国际传媒港 CMG 融媒影城",
+    "verified": "2026-09-24",
     "source": "https://www.yicai.com/news/103329038.html",
     "photos": [
       {
@@ -366,7 +366,7 @@ window.PR_ACTIVITIES = [
     "dateLabel": "09.23",
     "period": "Stripe Tour 上海 · 圆桌分享",
     "kind": "伙伴交流",
-    "status": "圆桌分享已完成",
+    "status": "已发生 · 圆桌分享完成",
     "phase": "past",
     "title": "Stripe Tour Shanghai\n吴高明圆桌分享",
     "summary": "CreativeFitting 联合创始人吴高明作为合作伙伴参与圆桌分享；现场屏幕展示 CreativeFitting 与多家 AI 企业标识，四张成果原图已归档。",
@@ -404,21 +404,39 @@ window.PR_ACTIVITIES = [
     "id": "yunqi",
     "date": "2026-09-23",
     "dateLabel": "09.23",
-    "period": "11:40—12:00 · 原议程",
+    "period": "云栖大会 · 短漫剧分论坛",
     "kind": "论坛演讲",
-    "status": "筹备中",
-    "phase": "upcoming",
+    "status": "已发生 · 演讲完成",
+    "phase": "past",
     "title": "Jacky · 云栖大会\n短漫剧出海主题分享",
-    "summary": "演讲材料与展示海报正在准备。PPT v2 已发本人 review，主办方收件与最终采用版本待确认。",
+    "summary": "林俊凯 Jacky 完成短漫剧出海主题分享，结合 AI 内容技术演进与作品案例交流实践；现场演讲、讲者介绍及产业联盟发布合影已归档。",
     "place": "杭州 · 国际博览中心",
-    "verified": "2026-09-15",
+    "verified": "2026-09-24",
     "source": null,
     "photos": [
       {
-        "src": "./assets/yunqi-01.jpg",
-        "caption": "2026云栖大会 · 智以致用（完整长图）",
+        "src": "./assets/yunqi-1b2b196052b9.jpg",
+        "caption": "云栖大会 · Jacky 演讲现场：作品案例",
         "fit": "contain",
-        "presentation": "top"
+        "presentation": "full"
+      },
+      {
+        "src": "./assets/yunqi-473177c9f86d.jpg",
+        "caption": "云栖大会 · 林俊凯 Jacky Lin 讲者介绍",
+        "fit": "contain",
+        "presentation": "full"
+      },
+      {
+        "src": "./assets/yunqi-c46a4b6b1b26.jpg",
+        "caption": "云栖大会 · 演讲现场：技术时间线",
+        "fit": "contain",
+        "presentation": "full"
+      },
+      {
+        "src": "./assets/yunqi-447513dfba12.png",
+        "caption": "云栖大会 · 短漫剧产业发展联盟发布合影",
+        "fit": "contain",
+        "presentation": "full"
       }
     ]
   }
